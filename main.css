@@ -34,27 +34,31 @@ header {
 /* .img-container is the child of .basic-info and parent of */
 .img-container {
     padding: 20px 20px 0 20px;
+    width: 30%;
     align-self: center;
-    /* display: flex;
-    justify-content: center; */
 }
 
-/* .img-container img is the child of .img-container*/
-/* img {
+/* img is the child of .img-container*/
+img {
     width: 100%;
-} */
+}
 
 /* .basic-info-text-block is the child of .basic-info */
 .basic-info-text-block {
-    width: 60%;
+    width: 30%;
     text-align: center;
     align-self: center;
+    font-size: 1.8em;
+}
+h2 {
+    margin: 0;
+    padding: 0;
 }
 
-.cooper-basic-text {
-    font-size: 1.25em;
+.district-party {
+    margin: 0;
+    padding: 0;
 }
-
 /* .committees-legislation-parent is a child of main and a parent container for .committees and .legislation  */
 .committees-legislation-parent {
     width: 100%;
