@@ -1,0 +1,128 @@
+body {
+    background-color: 	#dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* main is parent of .basic-info and .committees-legislation-parent */
+main {
+    background-color: #f5f5f5;
+    width: 95%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    background-color: 	#449edd;
+    width: 95%
+}
+
+/* .basic-info is a child of main and a parent container for image, .name, .district-info, and .party affiliation */
+.basic-info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+}
+
+/* .img-container is the child of .basic-info and parent of */
+.img-container {
+    padding: 20px 20px 0 20px;
+    align-self: center;
+    /* display: flex;
+    justify-content: center; */
+}
+
+/* .img-container img is the child of .img-container*/
+/* img {
+    width: 100%;
+} */
+
+/* .basic-info-text-block is the child of .basic-info */
+.basic-info-text-block {
+    width: 60%;
+    text-align: center;
+    align-self: center;
+}
+
+.cooper-basic-text {
+    font-size: 1.25em;
+}
+
+/* .committees-legislation-parent is a child of main and a parent container for .committees and .legislation  */
+.committees-legislation-parent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    flex-wrap: nowrap;
+}
+
+/* .committees is the child of .committees-legislation-parent */
+.committees {
+    border: 1px solid black;
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+}
+
+/* .legislation is the child of .committees-legislation-parent */
+.legislation {
+    border: 1px solid black;
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.ul-lvl1 {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.ul-lvl2 {
+    list-style-type: square;
+    margin-left: 0px;
+}
+
+.ul-legislation {
+    list-style-type: square;
+    margin-left: 15px;
+    padding-left: 0px;
+}
+
+h2, h3 {
+    color:	#114488;
+}
+
+/* unvisited link */
+a:link {
+    color: 	#565656;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #565656;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #449edd;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #449edd;
+  }
+
+  footer {
+      background-color: #449edd;
+      width: 95%;
+      text-align: center;
+  }
