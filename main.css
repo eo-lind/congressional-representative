@@ -59,6 +59,7 @@ h2 {
     margin: 0;
     padding: 0;
 }
+
 /* .committees-legislation-parent is a child of main and a parent container for .committees and .legislation  */
 .committees-legislation-parent {
     width: 100%;
